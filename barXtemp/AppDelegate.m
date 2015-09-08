@@ -72,7 +72,7 @@
     //add separetor
     [menu addItem:[NSMenuItem separatorItem]];
     //create exit item
-    itemExit=[[NSMenuItem alloc] initWithTitle:@("Exit")
+    itemExit=[[NSMenuItem alloc] initWithTitle:@("Quit barXtemp")
                                         action:@selector(selectExit)
                                  keyEquivalent:@("")];
     //add exit
