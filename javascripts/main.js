@@ -1,5 +1,3 @@
-'use strict'
-
 ;(function () {
   window.onload = function () {
     // get image list
