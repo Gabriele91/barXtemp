@@ -3,9 +3,13 @@
 This is a simple **OS X app** to get the computer temperature. The app is accessible from the Systray and shows the CPU
 temperature, the speed of the fans and the temperature of the battery. Click [here](http://gabriele91.github.io/barXtemp/) to jump to the official web page.
 
-## Screenshot
+## Screenshots
 
 ![](http://gabriele91.github.io/barXtemp/images/ScreenShot.png)
+
+![](http://gabriele91.github.io/barXtemp/images/ScreenShot_1.png)
+
+![](http://gabriele91.github.io/barXtemp/images/ScreenShot_2.png)
 
 ## Download
 
