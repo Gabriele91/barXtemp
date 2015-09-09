@@ -1,3 +1,5 @@
+'use strict'
+
 ;(function () {
   window.onload = function () {
     // get image list
@@ -14,6 +16,8 @@
       }
       // show first
       images[imageCurrent].style.display = 'block'
+      // display the image list
+      imageList.style.display = 'block'
       // change image event
       imageList.onclick = function () {
         if (images) {
