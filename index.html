@@ -10,18 +10,9 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script src="javascripts/main.js"></script>
     <title>Barxtemp by Gabriele91</title>
   </head>
-  
-  <style type="text/css">
-  .multiImage 
-  {
-    border-radius:10px;
-    border: solid 2px rgb(128,128,128); 
-    padding: 10px;
-    background: #000;
-  }
-  </style>
 
   <body>
     <div id="container">
@@ -46,7 +37,7 @@
 <p>This is a simple <b>OS X app</b> to get the computer temperature. The app is accessible from the Systray and shows the CPU
 temperature, the speed of the fans and the temperature of the battery</p>
 
-        <p id="imageList"  style="text-align: center;" >
+        <p id="imageList">
           <img class="screenshot multiImage" src="images/ScreenShot.png"></img>
           <img class="screenshot multiImage" src="images/ScreenShot_1.png"></img>
           <img class="screenshot multiImage" src="images/ScreenShot_2.png"></img>
@@ -54,7 +45,7 @@ temperature, the speed of the fans and the temperature of the battery</p>
 
         </section>
         <section id="downloads" class="clearfix">
-          <a style="float:none; margin:auto;" href="https://github.com/Gabriele91/barXtemp/releases/download/1.0/barXtemp.app.zip" id="download-zip" class="button"><span>Download .app</span></a>
+          <a id="download-app" href="https://github.com/Gabriele91/barXtemp/releases/download/1.0/barXtemp.app.zip" class="button"><span>Download .app</span></a>
         </section>
 
         <footer>
@@ -67,38 +58,4 @@ temperature, the speed of the fans and the temperature of the battery</p>
     </div>
   </body>
 
-  <script type="text/javascript">
-
-  window.onload = function() 
-  {
-    //get image list
-    var imageList=document.getElementById("imageList");
-    //get elements
-    var images=imageList.getElementsByTagName("img");
-    //if have some images
-    if(images && images.length)
-    {
-      //first id
-      var imageCurrent = 0;
-      //hide all
-      for( var key=0; key != images.length; ++key )
-      {
-         images[key].style.display = "none";
-      }
-      //show first
-      images[imageCurrent].style.display = "block";
-      //change image event
-      imageList.onclick = function()
-      {
-          if(images)
-          { 
-              images[imageCurrent].style.display = "none";
-              imageCurrent = (imageCurrent+1) % images.length;
-              images[imageCurrent].style.display = "block";
-          }
-      }
-    }
-  }
-
-  </script>
 </html>

@@ -374,5 +374,24 @@ footer a:hover {
 
 .screenshot {
 	display: block;
-    margin: auto
+  margin: auto
+}
+
+.multiImage 
+{
+  cursor: pointer;
+  border-radius:10px;
+  border: solid 2px rgb(128,128,128); 
+  padding: 10px;
+  background: #000;
+}
+
+#imageList {
+  display: none;
+  text-align: center;
+}
+
+#download-app {
+  float:none;
+  margin:auto;
 }
