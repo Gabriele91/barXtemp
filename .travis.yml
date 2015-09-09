@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: barXtemp.xcodeproj
+xcode_scheme: barXtemp
