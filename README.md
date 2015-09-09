@@ -14,3 +14,9 @@ You can find the prebuild binaries on the [release](https://github.com/Gabriele9
 ## Building
 
 Open the project with Xcode and compile it.
+
+## Contributing
+
+If you think you can contribute to this project don't be shy and use the github features to let us know about your problems or your additional changes. 
+
+You can have some useful information on the official GitHub Guides about [contributing to open source](https://guides.github.com/activities/contributing-to-open-source/)
