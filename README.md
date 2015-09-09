@@ -11,6 +11,14 @@ temperature, the speed of the fans and the temperature of the battery. Click [he
 
 You can find the prebuild binaries on the [release](https://github.com/Gabriele91/barXtemp/releases) page.
 
+The app was tested on the following configurations:
+
+| OS X version | Model  |
+|:-:|:-:|
+| 10.10.5 | MacBook Air (13-Inch, Mid 2013) |
+| 10.10.5 | MacBook Pro (Retina, 13-Inch, Early 2015) |
+| 10.10.5 | MacBook Pro (15-Inch, Mid 2010) |
+
 ## Building
 
 Open the project with Xcode and compile it.
