@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode6.4
 xcode_project: barXtemp.xcodeproj
-xcode_scheme: barXtempTests
+xcode_scheme: barXtemp
