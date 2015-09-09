@@ -18,9 +18,11 @@ The app was tested on the following configurations:
 
 | OS X version | Model  |
 |:-:|:-:|
-| 10.10.5 | MacBook Air (13-Inch, Mid 2013) |
 | 10.10.5 | MacBook Pro (Retina, 13-Inch, Early 2015) |
+| 10.10.5 | MacBook Pro (Retina, 15-Inch, Late 2013) |
+| 10.10.5 | MacBook Air (13-Inch, Mid 2013) |
 | 10.10.5 | MacBook Pro (15-Inch, Mid 2010) |
+
 
 ## Building
 
