@@ -113,9 +113,9 @@
     NSStatusBar* bar=[NSStatusBar systemStatusBar];
     //path image
     NSString* pathImageW=
-    [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/thermometer16-white.png"];
+    [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/tempWhite"];
     NSString* pathImageD=
-    [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/thermometer16-dark.png"];
+    [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/tempDark"];
     //load image
     imageWhite=[[NSImage alloc] initWithContentsOfFile:pathImageW];
     [imageWhite setTemplate:YES];
