@@ -19,6 +19,8 @@
 		E0431C5A1B9F0F8600487E29 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E0431C581B9F0F8600487E29 /* assets */; };
 		E0431C5C1B9F0FDC00487E29 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0431C5B1B9F0FDC00487E29 /* CoreFoundation.framework */; };
 		E0431C5E1B9F0FE300487E29 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0431C5D1B9F0FE300487E29 /* AppKit.framework */; };
+		E081047D1BA196C30059A0AD /* LoginItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E081047C1BA196C30059A0AD /* LoginItems.m */; };
+		E081047E1BA196C30059A0AD /* LoginItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E081047C1BA196C30059A0AD /* LoginItems.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		E0431C581B9F0F8600487E29 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		E0431C5B1B9F0FDC00487E29 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		E0431C5D1B9F0FE300487E29 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E081047C1BA196C30059A0AD /* LoginItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginItems.m; sourceTree = "<group>"; };
+		E081047F1BA196DA0059A0AD /* LoginItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginItems.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				E0431C331B9F0EF800487E29 /* AppDelegate.m */,
 				E0431C371B9F0EF800487E29 /* Images.xcassets */,
 				E0431C301B9F0EF800487E29 /* Supporting Files */,
+				E081047F1BA196DA0059A0AD /* LoginItems.h */,
+				E081047C1BA196C30059A0AD /* LoginItems.m */,
 			);
 			path = barXtemp;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				E0431C541B9F0F7E00487E29 /* HardwareInfo.c in Sources */,
 				E0431C561B9F0F7E00487E29 /* smc.c in Sources */,
 				E0431C361B9F0EF800487E29 /* main.m in Sources */,
+				E081047D1BA196C30059A0AD /* LoginItems.m in Sources */,
 				E0431C341B9F0EF800487E29 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +252,7 @@
 			files = (
 				E0431C571B9F0F7E00487E29 /* smc.c in Sources */,
 				E0431C471B9F0EF800487E29 /* barXtempTests.m in Sources */,
+				E081047E1BA196C30059A0AD /* LoginItems.m in Sources */,
 				E0431C551B9F0F7E00487E29 /* HardwareInfo.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +424,7 @@
 				E0431C4C1B9F0EF800487E29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0431C4D1B9F0EF800487E29 /* Build configuration list for PBXNativeTarget "barXtempTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				E0431C4F1B9F0EF800487E29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AppKit/AppKit.h"
+#import "LoginItems.h"
 #include "HardwareInfo.h"
 
 @interface AppDelegate ()
@@ -107,9 +108,21 @@
     freeHardwareInfo(info);
 }
 
+- (BOOL) isInsideApplicationDirectory
+{
+    NSString* path=[[NSBundle mainBundle] bundlePath];
+    return [path containsString:@"Applications/barXtemp"];
+}
+
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    //put application at login
+    if([self isInsideApplicationDirectory] && ![LoginItems containsThisApp:@"barXtemp"])
+    {
+        [LoginItems addThisApp:@"barXtemp"];
+    }
+    //
     NSStatusBar* bar=[NSStatusBar systemStatusBar];
     //path image
     NSString* pathImageW=
