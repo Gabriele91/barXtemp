@@ -399,3 +399,7 @@ footer a:hover {
 #download-app span {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
 }
+
+#main_content {
+  text-align: center;
+}
