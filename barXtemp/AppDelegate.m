@@ -23,7 +23,7 @@
 
 - (void)selectExit
 {
-    exit(0);
+    [NSApp terminate:nil];
 }
 
 - (void) buildMenu
@@ -113,9 +113,9 @@
     NSStatusBar* bar=[NSStatusBar systemStatusBar];
     //path image
     NSString* pathImageW=
-    [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/tempWhite"];
+    [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/tempWhite.tiff"];
     NSString* pathImageD=
-    [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/tempDark"];
+    [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/tempDark.tiff"];
     //load image
     imageWhite=[[NSImage alloc] initWithContentsOfFile:pathImageW];
     [imageWhite setTemplate:YES];
