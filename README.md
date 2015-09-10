@@ -9,6 +9,7 @@ temperature, the speed of the fans and the temperature of the battery. Click [he
 |:-:|
 | ![](http://gabriele91.github.io/barXtemp/images/ScreenShot_1.png) |
 | ![](http://gabriele91.github.io/barXtemp/images/ScreenShot_2.png) |
+| ![](http://gabriele91.github.io/barXtemp/images/ScreenShot_3.png) |
 
 ## Download
 
