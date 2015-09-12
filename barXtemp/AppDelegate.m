@@ -27,6 +27,20 @@
     [NSApp terminate:nil];
 }
 
+- (void)selectLogin
+{
+    if ([LoginItems containsThisApp:@"barXtemp"])
+    {
+        [LoginItems removeThisApp:@"barXtemp"];
+        [itemLogin setImage:imgUncheckB];
+    }
+    else
+    {
+        [LoginItems addThisApp:@"barXtemp"];
+        [itemLogin setImage:imgCheckB];
+    }
+}
+
 - (void) buildMenu
 {
     //get info
@@ -70,6 +84,32 @@
         [menu addItem:itemFan];
         [itemsFan addObject:itemFan];
     }
+    //add separetor
+    [menu addItem:[NSMenuItem separatorItem]];
+    //create loginItem item
+    itemLogin=[[NSMenuItem alloc] initWithTitle:@("Start at login")
+                                         action:@selector(selectLogin)
+                                  keyEquivalent:@("")];
+    //image paths
+    NSString* pathImgCheckB=
+    [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/checkBlack.tiff"];
+    NSString* pathImgUncheckB=
+    [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/uncheckBlack.tiff"];
+    //load image
+    imgCheckB=[[NSImage alloc] initWithContentsOfFile:pathImgCheckB];
+    [imgCheckB setTemplate:YES];
+    imgUncheckB=[[NSImage alloc] initWithContentsOfFile:pathImgUncheckB];
+    [imgUncheckB setTemplate:YES];
+    if ([LoginItems containsThisApp:@"barXtemp"])
+    {
+        [itemLogin setImage:imgCheckB];
+    }
+    else
+    {
+        [itemLogin setImage:imgUncheckB];
+    }
+    //add exit
+    [menu addItem:itemLogin];
     //add separetor
     [menu addItem:[NSMenuItem separatorItem]];
     //create exit item

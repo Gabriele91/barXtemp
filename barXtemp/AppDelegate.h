@@ -15,6 +15,9 @@
     //image in sys menu
     NSImage* imageWhite;
     NSImage* imageDark;
+    //image check item
+    NSImage* imgCheckB;
+    NSImage* imgUncheckB;
     //menu object
     NSMenu* menu;
     //menu items
@@ -22,6 +25,7 @@
     NSMenuItem* itemTemperatureGpu;
     NSMenuItem* itemTemperatureBattery;
     NSMutableArray* itemsFan;
+    NSMenuItem* itemLogin;
     NSMenuItem* itemExit;
 }
 
