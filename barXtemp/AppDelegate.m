@@ -32,12 +32,12 @@
     if ([LoginItems containsThisApp:@"barXtemp"])
     {
         [LoginItems removeThisApp:@"barXtemp"];
-        [itemLogin setImage:imgUncheckB];
+        [itemLogin setState:NSOffState];
     }
     else
     {
         [LoginItems addThisApp:@"barXtemp"];
-        [itemLogin setImage:imgCheckB];
+        [itemLogin setState:NSOnState];
     }
 }
 
@@ -100,13 +100,17 @@
     [imgCheckB setTemplate:YES];
     imgUncheckB=[[NSImage alloc] initWithContentsOfFile:pathImgUncheckB];
     [imgUncheckB setTemplate:YES];
+    //set image
+    [itemLogin setOnStateImage:imgCheckB];
+    [itemLogin setOffStateImage:imgUncheckB];
+    //set state
     if ([LoginItems containsThisApp:@"barXtemp"])
     {
-        [itemLogin setImage:imgCheckB];
+        [itemLogin setState:NSOnState];
     }
     else
     {
-        [itemLogin setImage:imgUncheckB];
+        [itemLogin setState:NSOffState];
     }
     //add exit
     [menu addItem:itemLogin];
