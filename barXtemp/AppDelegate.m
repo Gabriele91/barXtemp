@@ -99,7 +99,7 @@
     imageCheckB=[[NSImage alloc] initWithContentsOfFile:pathImgCheckB];
     [imageCheckB setTemplate:YES];
     imageUncheckB=[[NSImage alloc] initWithContentsOfFile:pathImgUncheckB];
-    [imageCheckB setTemplate:YES];
+    [imageUncheckB setTemplate:YES];
     //set image
     [itemLogin setOnStateImage:imageCheckB];
     [itemLogin setOffStateImage:imageUncheckB];
