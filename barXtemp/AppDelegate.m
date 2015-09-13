@@ -96,13 +96,13 @@
     NSString* pathImgUncheckB=
     [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath],  @"assets/uncheckBlack.tiff"];
     //load image
-    imgCheckB=[[NSImage alloc] initWithContentsOfFile:pathImgCheckB];
-    [imgCheckB setTemplate:YES];
-    imgUncheckB=[[NSImage alloc] initWithContentsOfFile:pathImgUncheckB];
-    [imgUncheckB setTemplate:YES];
+    imageCheckB=[[NSImage alloc] initWithContentsOfFile:pathImgCheckB];
+    [imageCheckB setTemplate:YES];
+    imageUncheckB=[[NSImage alloc] initWithContentsOfFile:pathImgUncheckB];
+    [imageCheckB setTemplate:YES];
     //set image
-    [itemLogin setOnStateImage:imgCheckB];
-    [itemLogin setOffStateImage:imgUncheckB];
+    [itemLogin setOnStateImage:imageCheckB];
+    [itemLogin setOffStateImage:imageCheckB];
     //set state
     if ([LoginItems containsThisApp:@"barXtemp"])
     {

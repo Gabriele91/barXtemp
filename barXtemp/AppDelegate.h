@@ -16,8 +16,8 @@
     NSImage* imageWhite;
     NSImage* imageDark;
     //image check item
-    NSImage* imgCheckB;
-    NSImage* imgUncheckB;
+    NSImage* imageCheckB;
+    NSImage* imageUncheckB;
     //menu object
     NSMenu* menu;
     //menu items
