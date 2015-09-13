@@ -102,7 +102,7 @@
     [imageCheckB setTemplate:YES];
     //set image
     [itemLogin setOnStateImage:imageCheckB];
-    [itemLogin setOffStateImage:imageCheckB];
+    [itemLogin setOffStateImage:imageUncheckB];
     //set state
     if ([LoginItems containsThisApp:@"barXtemp"])
     {
