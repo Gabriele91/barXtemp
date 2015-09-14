@@ -400,6 +400,21 @@ footer a:hover {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
 }
 
-#main_content {
+.centered_content {
   text-align: center;
+}
+
+.nv {
+  color: #008080;
+}
+
+.pre_code {
+  display: inline-block;
+  padding: 8px 10px;
+  clear: both;
+  text-align: center;
+  margin-bottom: 0.9em;
+  border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
 }
