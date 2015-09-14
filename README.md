@@ -15,6 +15,12 @@ temperature, the integrated GPU temperature (if available), the speed of the fan
 
 You can find the prebuild binaries on the [release](https://github.com/Gabriele91/barXtemp/releases) page.
 
+Besides if you have already installed [Homebrew](http://brew.sh/) and [Homebrew Cask](http://caskroom.io/) you can install it using the following command:
+
+``` 
+brew cask install barxtemp
+```
+
 The app was tested on the following configurations:
 
 | OS X version | Model  |
