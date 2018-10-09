@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E0431C3F1B9F0EF800487E29"
+               BlueprintIdentifier = "20CE37FF216CACAE002C7506"
                BuildableName = "barXtempTests.xctest"
                BlueprintName = "barXtempTests"
                ReferencedContainer = "container:barXtemp.xcodeproj">
@@ -42,6 +42,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "20CE37FF216CACAE002C7506"
+               BuildableName = "barXtempTests.xctest"
+               BlueprintName = "barXtempTests"
+               ReferencedContainer = "container:barXtemp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

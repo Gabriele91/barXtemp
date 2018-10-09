@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20CE3803216CACAE002C7506 /* barXtempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE3802216CACAE002C7506 /* barXtempTests.m */; };
 		E0431C341B9F0EF800487E29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0431C331B9F0EF800487E29 /* AppDelegate.m */; };
 		E0431C361B9F0EF800487E29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0431C351B9F0EF800487E29 /* main.m */; };
 		E0431C381B9F0EF800487E29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0431C371B9F0EF800487E29 /* Images.xcassets */; };
@@ -18,7 +19,20 @@
 		E081047D1BA196C30059A0AD /* LoginItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E081047C1BA196C30059A0AD /* LoginItems.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		20CE3805216CACAE002C7506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0431C251B9F0EF800487E29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0431C2C1B9F0EF800487E29;
+			remoteInfo = barXtemp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		20CE3800216CACAE002C7506 /* barXtempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barXtempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CE3802216CACAE002C7506 /* barXtempTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barXtempTests.m; sourceTree = "<group>"; };
+		20CE3804216CACAE002C7506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0431C2D1B9F0EF800487E29 /* barXtemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barXtemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0431C311B9F0EF800487E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0431C321B9F0EF800487E29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +51,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		20CE37FD216CACAE002C7506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0431C2A1B9F0EF800487E29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20CE3801216CACAE002C7506 /* barXtempTests */ = {
+			isa = PBXGroup;
+			children = (
+				20CE3802216CACAE002C7506 /* barXtempTests.m */,
+				20CE3804216CACAE002C7506 /* Info.plist */,
+			);
+			path = barXtempTests;
+			sourceTree = "<group>";
+		};
 		E0431C241B9F0EF800487E29 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +86,7 @@
 				E0431C5B1B9F0FDC00487E29 /* CoreFoundation.framework */,
 				E0431C581B9F0F8600487E29 /* assets */,
 				E0431C2F1B9F0EF800487E29 /* barXtemp */,
+				20CE3801216CACAE002C7506 /* barXtempTests */,
 				E0431C2E1B9F0EF800487E29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				E0431C2D1B9F0EF800487E29 /* barXtemp.app */,
+				20CE3800216CACAE002C7506 /* barXtempTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +129,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		20CE37FF216CACAE002C7506 /* barXtempTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CE3809216CACAE002C7506 /* Build configuration list for PBXNativeTarget "barXtempTests" */;
+			buildPhases = (
+				20CE37FC216CACAE002C7506 /* Sources */,
+				20CE37FD216CACAE002C7506 /* Frameworks */,
+				20CE37FE216CACAE002C7506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20CE3806216CACAE002C7506 /* PBXTargetDependency */,
+			);
+			name = barXtempTests;
+			productName = barXtempTests;
+			productReference = 20CE3800216CACAE002C7506 /* barXtempTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E0431C2C1B9F0EF800487E29 /* barXtemp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0431C4A1B9F0EF800487E29 /* Build configuration list for PBXNativeTarget "barXtemp" */;
@@ -123,6 +173,11 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Gabriele Di Bari";
 				TargetAttributes = {
+					20CE37FF216CACAE002C7506 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0431C2C1B9F0EF800487E29;
+					};
 					E0431C2C1B9F0EF800487E29 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = barXteam;
@@ -144,11 +199,19 @@
 			projectRoot = "";
 			targets = (
 				E0431C2C1B9F0EF800487E29 /* barXtemp */,
+				20CE37FF216CACAE002C7506 /* barXtempTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		20CE37FE216CACAE002C7506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0431C2B1B9F0EF800487E29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,6 +224,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		20CE37FC216CACAE002C7506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CE3803216CACAE002C7506 /* barXtempTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0431C291B9F0EF800487E29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,7 +246,62 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		20CE3806216CACAE002C7506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0431C2C1B9F0EF800487E29 /* barXtemp */;
+			targetProxy = 20CE3805216CACAE002C7506 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		20CE3807216CACAE002C7506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = barXtempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = barXteam.barXtempTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barXtemp.app/Contents/MacOS/barXtemp";
+			};
+			name = Debug;
+		};
+		20CE3808216CACAE002C7506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = barXtempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = barXteam.barXtempTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barXtemp.app/Contents/MacOS/barXtemp";
+			};
+			name = Release;
+		};
 		E0431C481B9F0EF800487E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -313,6 +439,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20CE3809216CACAE002C7506 /* Build configuration list for PBXNativeTarget "barXtempTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CE3807216CACAE002C7506 /* Debug */,
+				20CE3808216CACAE002C7506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E0431C281B9F0EF800487E29 /* Build configuration list for PBXProject "barXtemp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
