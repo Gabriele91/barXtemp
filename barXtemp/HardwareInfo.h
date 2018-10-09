@@ -27,7 +27,7 @@ typedef struct
     
 } HardwareInfo;
 
-HardwareInfo* getHardwareInfo();
+HardwareInfo* getHardwareInfo(void);
 void freeHardwareInfo(HardwareInfo*);
 
 #endif

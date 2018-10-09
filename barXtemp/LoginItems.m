@@ -42,7 +42,7 @@
         if(errorId)
         {
             NSString* errorStr = [errorId stringValue];
-            if (errorStr) NSLog(errorStr);
+            if (errorStr) NSLog(@"%@", errorStr);
         }
     }
     
@@ -80,7 +80,7 @@
         if(errorId)
         {
             NSString* errorStr = [errorId stringValue];
-            if (errorStr) NSLog(errorStr);
+            if (errorStr) NSLog(@"%@", errorStr);
         }
     }
     
@@ -118,7 +118,7 @@
         if(errorId)
         {
             NSString* errorStr = [errorId stringValue];
-            if (errorStr) NSLog(errorStr);
+            if (errorStr) NSLog(@"%@", errorStr);
         }
     }
     

@@ -32,12 +32,12 @@
     if ([LoginItems containsThisApp:@"barXtemp"])
     {
         [LoginItems removeThisApp:@"barXtemp"];
-        [itemLogin setState:NSOffState];
+        [itemLogin setState:NSControlStateValueOff];
     }
     else
     {
         [LoginItems addThisApp:@"barXtemp"];
-        [itemLogin setState:NSOnState];
+        [itemLogin setState:NSControlStateValueOn];
     }
 }
 
@@ -106,11 +106,11 @@
     //set state
     if ([LoginItems containsThisApp:@"barXtemp"])
     {
-        [itemLogin setState:NSOnState];
+        [itemLogin setState:NSControlStateValueOn];
     }
     else
     {
-        [itemLogin setState:NSOffState];
+        [itemLogin setState:NSControlStateValueOff];
     }
     //add exit
     [menu addItem:itemLogin];
