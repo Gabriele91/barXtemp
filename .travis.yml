@@ -2,3 +2,4 @@ language: objective-c
 osx_image: xcode10
 xcode_project: barXtemp.xcodeproj
 xcode_scheme: barXtemp
+xcode_sdk: macosx10.14
