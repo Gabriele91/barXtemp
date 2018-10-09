@@ -107,14 +107,14 @@ typedef struct {
 
 // prototypes
 kern_return_t SMCOpen(void);
-kern_return_t SMCClose();
+kern_return_t SMCClose(void);
 float SMCGetFanSpeed(int fanNum);
 int SMCGetFanNumber(char *key);
 double SMCGetTemperature(char *key);
-const char* getBatteryHealth();
-int getDesignCycleCount();
-int getBatteryCharge();
-const int hasBattery();
+const char* getBatteryHealth(void);
+int getDesignCycleCount(void);
+int getBatteryCharge(void);
+const int hasBattery(void);
 CFTypeRef IOPSCopyPowerSourcesInfo(void);
 CFArrayRef IOPSCopyPowerSourcesList(CFTypeRef blob);
 CFDictionaryRef IOPSGetPowerSourceDescription(CFTypeRef blob, CFTypeRef ps);

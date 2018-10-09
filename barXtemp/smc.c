@@ -186,7 +186,7 @@ float SMCGetFanSpeed(int fanNum)
     UInt32Char_t  key;
     sprintf(key, SMC_KEY_FAN_SPEED, fanNum);
     result = SMCReadKey(key, &val);
-    return _strtof(val.bytes, val.dataSize, 2);
+    return _strtof((unsigned char*) val.bytes, val.dataSize, 2);
 }
 
 int SMCGetFanNumber(char *key)
@@ -205,8 +205,9 @@ int SMCGetFanNumber(char *key)
 void dumpDict (CFDictionaryRef Dict)
 {
     // Helper function to just dump a CFDictioary as XML
-    CFDataRef xml = CFPropertyListCreateXMLData(kCFAllocatorDefault, (CFPropertyListRef)Dict);
-    if (xml) { write(1, CFDataGetBytePtr(xml), CFDataGetLength(xml)); CFRelease(xml); }
+    CFErrorRef dumpError;
+    CFDataRef xml = CFPropertyListCreateData(kCFAllocatorDefault, (CFPropertyListRef)Dict, kCFPropertyListXMLFormat_v1_0, 0, &dumpError);
+    if (!dumpError && xml) { write(1, CFDataGetBytePtr(xml), CFDataGetLength(xml)); CFRelease(xml); }
 }
 
 CFDictionaryRef powerSourceInfo(int Debug)
