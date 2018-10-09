@@ -10,28 +10,13 @@
 		E0431C341B9F0EF800487E29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0431C331B9F0EF800487E29 /* AppDelegate.m */; };
 		E0431C361B9F0EF800487E29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0431C351B9F0EF800487E29 /* main.m */; };
 		E0431C381B9F0EF800487E29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0431C371B9F0EF800487E29 /* Images.xcassets */; };
-		E0431C471B9F0EF800487E29 /* barXtempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0431C461B9F0EF800487E29 /* barXtempTests.m */; };
 		E0431C541B9F0F7E00487E29 /* HardwareInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = E0431C501B9F0F7E00487E29 /* HardwareInfo.c */; };
-		E0431C551B9F0F7E00487E29 /* HardwareInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = E0431C501B9F0F7E00487E29 /* HardwareInfo.c */; };
 		E0431C561B9F0F7E00487E29 /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = E0431C521B9F0F7E00487E29 /* smc.c */; };
-		E0431C571B9F0F7E00487E29 /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = E0431C521B9F0F7E00487E29 /* smc.c */; };
 		E0431C591B9F0F8600487E29 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E0431C581B9F0F8600487E29 /* assets */; };
-		E0431C5A1B9F0F8600487E29 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E0431C581B9F0F8600487E29 /* assets */; };
 		E0431C5C1B9F0FDC00487E29 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0431C5B1B9F0FDC00487E29 /* CoreFoundation.framework */; };
 		E0431C5E1B9F0FE300487E29 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0431C5D1B9F0FE300487E29 /* AppKit.framework */; };
 		E081047D1BA196C30059A0AD /* LoginItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E081047C1BA196C30059A0AD /* LoginItems.m */; };
-		E081047E1BA196C30059A0AD /* LoginItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E081047C1BA196C30059A0AD /* LoginItems.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E0431C411B9F0EF800487E29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E0431C251B9F0EF800487E29 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0431C2C1B9F0EF800487E29;
-			remoteInfo = barXtemp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E0431C2D1B9F0EF800487E29 /* barXtemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barXtemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,9 +25,6 @@
 		E0431C331B9F0EF800487E29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0431C351B9F0EF800487E29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0431C371B9F0EF800487E29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E0431C401B9F0EF800487E29 /* barXtempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barXtempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0431C451B9F0EF800487E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0431C461B9F0EF800487E29 /* barXtempTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barXtempTests.m; sourceTree = "<group>"; };
 		E0431C501B9F0F7E00487E29 /* HardwareInfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HardwareInfo.c; sourceTree = "<group>"; };
 		E0431C511B9F0F7E00487E29 /* HardwareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardwareInfo.h; sourceTree = "<group>"; };
 		E0431C521B9F0F7E00487E29 /* smc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = smc.c; sourceTree = "<group>"; };
@@ -64,13 +46,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0431C3D1B9F0EF800487E29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +56,6 @@
 				E0431C5B1B9F0FDC00487E29 /* CoreFoundation.framework */,
 				E0431C581B9F0F8600487E29 /* assets */,
 				E0431C2F1B9F0EF800487E29 /* barXtemp */,
-				E0431C431B9F0EF800487E29 /* barXtempTests */,
 				E0431C2E1B9F0EF800487E29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				E0431C2D1B9F0EF800487E29 /* barXtemp.app */,
-				E0431C401B9F0EF800487E29 /* barXtempTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,23 +94,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E0431C431B9F0EF800487E29 /* barXtempTests */ = {
-			isa = PBXGroup;
-			children = (
-				E0431C461B9F0EF800487E29 /* barXtempTests.m */,
-				E0431C441B9F0EF800487E29 /* Supporting Files */,
-			);
-			path = barXtempTests;
-			sourceTree = "<group>";
-		};
-		E0431C441B9F0EF800487E29 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E0431C451B9F0EF800487E29 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,24 +114,6 @@
 			productReference = E0431C2D1B9F0EF800487E29 /* barXtemp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E0431C3F1B9F0EF800487E29 /* barXtempTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0431C4D1B9F0EF800487E29 /* Build configuration list for PBXNativeTarget "barXtempTests" */;
-			buildPhases = (
-				E0431C3C1B9F0EF800487E29 /* Sources */,
-				E0431C3D1B9F0EF800487E29 /* Frameworks */,
-				E0431C3E1B9F0EF800487E29 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E0431C421B9F0EF800487E29 /* PBXTargetDependency */,
-			);
-			name = barXtempTests;
-			productName = barXtempTests;
-			productReference = E0431C401B9F0EF800487E29 /* barXtempTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,10 +127,6 @@
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = barXteam;
 						ProvisioningStyle = Automatic;
-					};
-					E0431C3F1B9F0EF800487E29 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = E0431C2C1B9F0EF800487E29;
 					};
 				};
 			};
@@ -210,7 +144,6 @@
 			projectRoot = "";
 			targets = (
 				E0431C2C1B9F0EF800487E29 /* barXtemp */,
-				E0431C3F1B9F0EF800487E29 /* barXtempTests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,14 +155,6 @@
 			files = (
 				E0431C381B9F0EF800487E29 /* Images.xcassets in Resources */,
 				E0431C591B9F0F8600487E29 /* assets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0431C3E1B9F0EF800487E29 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0431C5A1B9F0F8600487E29 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,26 +173,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0431C3C1B9F0EF800487E29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0431C571B9F0F7E00487E29 /* smc.c in Sources */,
-				E0431C471B9F0EF800487E29 /* barXtempTests.m in Sources */,
-				E081047E1BA196C30059A0AD /* LoginItems.m in Sources */,
-				E0431C551B9F0F7E00487E29 /* HardwareInfo.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E0431C421B9F0EF800487E29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E0431C2C1B9F0EF800487E29 /* barXtemp */;
-			targetProxy = E0431C411B9F0EF800487E29 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E0431C481B9F0EF800487E29 /* Debug */ = {
@@ -404,44 +310,6 @@
 			};
 			name = Release;
 		};
-		E0431C4E1B9F0EF800487E29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = barXtempTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barXtemp.app/Contents/MacOS/barXtemp";
-			};
-			name = Debug;
-		};
-		E0431C4F1B9F0EF800487E29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = barXtempTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barXtemp.app/Contents/MacOS/barXtemp";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -459,15 +327,6 @@
 			buildConfigurations = (
 				E0431C4B1B9F0EF800487E29 /* Debug */,
 				E0431C4C1B9F0EF800487E29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0431C4D1B9F0EF800487E29 /* Build configuration list for PBXNativeTarget "barXtempTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E0431C4E1B9F0EF800487E29 /* Debug */,
-				E0431C4F1B9F0EF800487E29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
